@@ -1,3 +1,5 @@
-crewai==0.36.0
-pytesseract==-0.3.10
-opencv-python==4.10.0.84
+crewai
+pytesseract
+opencv-python
+fastapi
+pillow

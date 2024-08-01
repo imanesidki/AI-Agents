@@ -58,7 +58,7 @@ snge ma
 """
 
 def process_invoice(invoice_text):
-    model = Ollama(model = "llama3")
+    model = Ollama(model = "llama3.1")
 
     Extractor = Agent(
         role = "Invoice Extractor",
@@ -127,5 +127,3 @@ def process_invoice(invoice_text):
 
 output = process_invoice(invoice_text)
 print(output)
-
-# test: curl -X POST "http://localhost:8000/extract_invoice" -F "image=@./image.jpg"
